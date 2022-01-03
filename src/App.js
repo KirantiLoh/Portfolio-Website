@@ -10,14 +10,17 @@ function App() {
   return (
     <div className="App">
       <LazyLoad>
-        <Header/>
-      <Hero/>
-      <About/>
-      <Project/>
-      <Contact/>
-      <footer>
-      <small>&copy; Copyright 2022, Maurice Yang</small> 
-      </footer>
+        <div id="home">
+          <Header/>
+          <Hero/>
+          <About/>
+          <Project/>
+          <Contact/>
+          <footer>
+            <small>&copy; Copyright 2022, Maurice Yang</small> 
+          </footer>
+        </div>
+        
       </LazyLoad>
     </div>
   );
