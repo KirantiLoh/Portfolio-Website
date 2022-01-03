@@ -1,7 +1,6 @@
 import { useState } from "react"
-import React from 'react'
+import React, { useRef } from 'react'
 import emailjs from 'emailjs-com'
-import { useRef } from "react/cjs/react.development"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faCheckCircle, faTimesCircle } from "@fortawesome/free-solid-svg-icons"
 
