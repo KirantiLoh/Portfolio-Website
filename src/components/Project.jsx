@@ -2,7 +2,7 @@ import React from 'react'
 import MB3EVoting from '../images/projects/mb3-evoting.jpg'
 import ConnectChat from '../images/projects/connect-chat.jpg'
 import TSEcom from '../images/projects/ts-ecom.jpg'
-import PersonalWebsite from '../images/projects/personal-website.png'
+import PersonalWebsite from '../images/projects/Personal-Website.png'
 
 const Project = () => {
     return (
