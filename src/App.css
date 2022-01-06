@@ -190,7 +190,7 @@ body {
 
 .desc {
     margin-top: 10px;
-    max-width: 70ch;
+    max-width: 60ch;
     color: var(--secondary-text-color);
     line-height: 1.5;
 }
