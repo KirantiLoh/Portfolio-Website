@@ -17,7 +17,7 @@ const About = () => {
                 <img src={AboutImage} alt="Maurice Yang" />
                 <div className="descs">
                     <p className="desc">Hi I'm Maurice Yang, and I love creating websites using React JS and Django. Creating websites is one of those things where it seems boring to do but enjoyable once the experience accumulated. I was introduced to programming at 2017, and I love it ever since. Being able to create programs is a satisfying experience and we can see how the program made impact, both to ourself or other people.</p>
-                    <p className="desc">Learnt Django at 2019 and I have been experimenting with it ever since. Django makes developing a full stack website really easy with its MVT principles. Recently just touched on React JS and I'm loving it. Its "component" approach are simply remarkable, writing code once and it can be reused anywhere. And its virtual DOM makes rendering the site much faster.</p>
+                    <p className="desc">I've learnt Django since last year and recently just started learning about React JS. I've created a lot of small projects in order to improve my skills, both in Django and React JS. I'm currently planning to learn Next JS due to server side rendering and SEO friendly</p>
                 </div>
                 
             </div>
@@ -47,7 +47,7 @@ const About = () => {
             </ul>
             </div>
             <div id="services">
-            <h1 className="title">Services</h1>
+                <h1 className="title">Services</h1>
             <ul className="services">
                 <li className="service">
                     <h1 className='service-logo'><FontAwesomeIcon icon={faLayerGroup}/></h1>
@@ -67,6 +67,7 @@ const About = () => {
                 </li>
             </ul>
             </div>
+            
         </div>
     )
 }

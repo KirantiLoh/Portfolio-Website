@@ -18,7 +18,7 @@ const Hero = () => {
                         Full Stack Web Developer
                     </h1>
                     <p className="desc">
-                        I'm a fullstack web developer who specializes in developing websites using React JS and Django, constantly finding a way to improve both my technical skills and teamwork with other people. I'm passionate to learn about all the wonderful new technologies. Had experience in deploying websites both in Heroku and Netlify.
+                        Maurice Yang is a fullstack web developer who specializes in developing websites using React JS and Django, constantly finding a way to improve both my technical skills and teamwork with other people. I'm passionate to learn about all the wonderful new technologies. Had experience in deploying websites both in Heroku and Netlify.
                     </p>
                     <a href="#contact-me" id='contact-me-btn'><FontAwesomeIcon icon={faEnvelope}/> Contact Me</a>
                     <a href="#about" className='secondary-btn'><FontAwesomeIcon icon={faArrowDown}/> Learn More</a>
