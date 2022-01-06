@@ -2,12 +2,22 @@ import React from 'react'
 import MB3EVoting from '../images/projects/mb3-evoting.jpg'
 import ConnectChat from '../images/projects/connect-chat.jpg'
 import TSEcom from '../images/projects/ts-ecom.jpg'
+import PersonalWebsite from '../images/projects/Personal-Webiste.png'
 
 const Project = () => {
     return (
         <div id='projects'>
             <h1 className="title">Latest Projects</h1>
             <ul className="projects">
+            <li className="project">
+                <div className="container">
+                        <img src={PersonalWebsite} alt="Personal Website" />
+                        <h1 className="project-title">Porfolio Website</h1>
+                        <p className="desc">Last year, I've made a portfolio website using Django. But that site has some glaring flaws, so I created a new one to replace it. Created using React JS, might migrate it into Next JS to improve SEO</p>
+                        <a href="#home" className="visit-site-btn">Visit Site</a>
+                        <a href="https://github.com/KirantiLoh/Portfolio-Website" target='_blank' rel='noreferrer' className='secondary-btn'>View source</a>
+                    </div>
+                </li>
                 <li className="project">
                     <div className="container">
                         <img src={ConnectChat} alt="Connect Chat App" />
@@ -36,7 +46,6 @@ const Project = () => {
                         <a href="https://github.com/KirantiLoh/TSECom" target='_blank' rel='noreferrer' className='secondary-btn'>View source</a>
                     </div>
                 </li>
-                <li className="project"></li>
             </ul>
         </div>
     )

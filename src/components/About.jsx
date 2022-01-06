@@ -6,7 +6,7 @@ import HTMLLogo from '../images/skills/html.png'
 import CSSLogo from '../images/skills/css.png'
 import JSLogo from '../images/skills/js logo.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import {  faMagic, faLayerGroup, faServer } from '@fortawesome/free-solid-svg-icons'
+import { faLayerGroup, faServer } from '@fortawesome/free-solid-svg-icons'
 import { faReact } from '@fortawesome/free-brands-svg-icons'
 
 const About = () => {
@@ -52,10 +52,6 @@ const About = () => {
                 <li className="service">
                     <h1 className='service-logo'><FontAwesomeIcon icon={faLayerGroup}/></h1>
                     <h1 className="service-title">Fullstack Web Development</h1>
-                </li>
-                <li className="service">
-                    <h1 className="service-logo"><FontAwesomeIcon icon={faMagic}/></h1>
-                    <h1 className="service-title">Website Design</h1>
                 </li>
                 <li className="service">
                     <h1 className="service-logo"><FontAwesomeIcon icon={faReact}/></h1>
